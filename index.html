@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+ <head>
+	<meta charset="UTF-8">
+	<title>Pants</title>
+	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script>
+		$(function() {
+			$( "#lilguy" ).draggable({
+				drag: function(){
+					var offset = $(this).offset();
+					$("#lilguy").width(offset.top);
+					$("#lilguy").height(offset.top);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="pantsText">pants</div>
+	<img src="guy.png" id="lilguy" class="ui-widget-content">
+
+</body>
+</html>

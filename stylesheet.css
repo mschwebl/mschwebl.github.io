@@ -1,0 +1,17 @@
+body {
+	background-color: rgb(191,226,201);
+}
+
+#lilguy { 
+	height: 25vh;
+	width: auto;
+}
+
+#pantsText {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: rgb(247,242,227);
+	position: fixed;
+	bottom: 10vh;
+	right: 10vw;
+	font-size: 4vw;
+}
