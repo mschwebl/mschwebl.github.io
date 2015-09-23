@@ -13,11 +13,12 @@
 	<script src="https://rawgit.com/motyar/firefly/master/jquery.firefly-0.4.js "> </script>
 	<script>
 		$(document).ready(function() {
-			$.firefly(
+			$.firefly({
 				color: '#fff',
 				minPixel: 1,
 				maxPixel: 3,
-				total : 65); 	
+				total : 65
+			}); 	
 		});
 		$(function() {
 			$( "#lilguy" ).draggable({
