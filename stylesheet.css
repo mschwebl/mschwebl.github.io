@@ -5,9 +5,11 @@ html, body {
 	margin: 0;
 }
 
-#lilguy { 
-	height: 25vh;
+#anything {
+	height: 60%;
 	width: auto;
+	margin: 50px auto; 
+	max-width: 50%;
 }
 
 #pantsText {
