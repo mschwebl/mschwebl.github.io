@@ -10,6 +10,11 @@ html, body {
 	width: auto;
 	margin: 50px auto; 
 	max-width: 50%;
+	z-index: 21;
+}
+
+img {
+	z-index: 21;
 }
 
 #pantsText {
